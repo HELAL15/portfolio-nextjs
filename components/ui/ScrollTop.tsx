@@ -33,7 +33,7 @@ const ScrollTop: FC<IProps> = ({}) => {
     <>
       <button
         onClick={handleClick}
-        className="fixed inset-x-6 bottom-6 z-[99999] w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 duration-300 hover:bg-purple hover:text-black-200 bg-black-200 rounded-lg border border-black-300 text-xl"
+        className="fixed inset-x-5 bottom-5 z-[99999] w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 duration-300 hover:bg-purple hover:text-black-200 bg-black-200 rounded-lg border border-black-300 text-xl"
         style={{
           display: hidden ? 'flex' : 'none',
         }}
